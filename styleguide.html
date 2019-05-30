@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Styleguide</title>
+    <title>Styleguide</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div>
+            <p class="green-light">hsl(82, 61%, 55%)</p>
+            <p class="green-dark">hsl(82, 44%, 38%)</p>
+            <p class="black">hsl(0, 0%, 0%)</p>
+            <p class="white">hsl(0, 0%, 100%)</p>
+        </div>
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <div>
+            <p class="regular-45">Palatino Linotype - Regular 45px</p>
+            <p class="regular-30">Palatino Linotype - Regular 30px</p>
+            <p class="regular-29">Palatino Linotype - Regular 29px</p>
+            <p class="regular-25">Palatino Linotype - Regular 25px</p>
+            <p class="regular-20">Palatino Linotype - Regular 20px</p>
+            <p class="regular-18">Palatino Linotype - Regular 18px</p>
+            <p class="regular-15">Palatino Linotype - Regular 15px</p>
+        </div>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <div>
+            <button type="submit" class="btn">Verder</button>
+        </div>
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div>
+            <input placeholder="dd/mm/jjjj" class="textbox-n" type="text" onfocus="(this.type='date')"
+                onblur="(this.type='text')" id="date">
+        </div>
+        <div>
+            <input type="number" placeholder="aantal" class="inputNr">
+        </div>
+
+        <h2 class="sg-subtitle">Componenten</h2>
+        <div>
+            <i class="fas fa-home"></i>
+        </div>
+        <div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
 </body>
+
 </html>

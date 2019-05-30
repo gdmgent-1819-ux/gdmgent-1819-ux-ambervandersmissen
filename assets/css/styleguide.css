@@ -1,9 +1,13 @@
+html {
+    background-image: none;
+}
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +17,77 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/*-- Kleuren --*/
+.green-light {
+    color: var(--c-green-light);
+}
+
+.green-dark {
+    color: var(--c-green-dark);
+}
+
+.black {
+    color: var(--c-black);
+}
+
+.white {
+    color: var(--c-white);
+    background-color: var(--c-black);
+}
+
+/*-- Typografie --*/
+.regular-45 {
+    font-size: 45px;
+}
+
+.regular-30 {
+    font-size: 30px;
+}
+
+.regular-29 {
+    font-size: 29px;
+}
+
+.regular-25 {
+    font-size: 25px;
+}
+
+.regular-20 {
+    font-size: 20px;
+}
+
+.regular-18 {
+    font-size: 18px;
+}
+
+.regular-15 {
+    font-size: 15px;
+}
+
+/*-- Knoppen --*/
+.btn {
+    background-color: var(--c-green-light);
+    font-size: 21px;
+    font-family: var(--t-primary);
+    color: var(--c-white);
+    padding: .5em 1em;
+    margin: 0;
+}
+
+/*-- Formulier --*/
+input {
+    width: 30%;
+    padding-left: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: var(--c-green-light);
+}
+
+/*-- Componenten --*/
+i{
+    font-size: 1.3em;
 }
